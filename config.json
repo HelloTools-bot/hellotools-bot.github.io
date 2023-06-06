@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -99,11 +99,11 @@
             "submit-to-origin": false
         }
     ],
-    "print-time": 60,
-    "health-print-time": 60,
+    "print-time": 30,
+    "health-print-time": 120,
     "dmi": true,
-    "retries": 5,
-    "retry-pause": 5,
+    "retries": 60,
+    "retry-pause": 30,
     "syslog": false,
     "tls": {
         "enabled": false,
@@ -114,7 +114,7 @@
         "ciphersuites": null,
         "dhparam": null
     },
-    "user-agent": null,
+    "user-agent": "AGAgent/6.6.6",
     "verbose": 0,
     "watch": true,
     "rebench-algo": false,
